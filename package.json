@@ -1,0 +1,17 @@
+{
+  "name": "webpack-split-hash",
+  "version": "0.0.0",
+  "description": "modify chunk's hash in case child chunk's hash change but main file's hash don't change yet when using code spliting",
+  "main": "index.js",
+  "keywords": [
+    "webpack"
+  ],
+  "author": "zhoujunpeng",
+  "license": "ISC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "md5": "^2.2.1"
+  }
+}
